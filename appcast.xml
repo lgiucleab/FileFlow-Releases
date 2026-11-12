@@ -1,6 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>FileFlow</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Thu, 12 Nov 2026 11:35:31 +0100</pubDate>
+            <link>https://github.com/lgiucleab/FileFlow-Releases</link>
+            <sparkle:version>1.0.1</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[
+FileFlow now updates itself.
+
+### Added
+
+- **Updates without the installer.** FileFlow › Check for Updates… looks for a new version and,
+  when there is one, shows what changed and installs it with one click, then relaunches.
+  The first time FileFlow opens it asks whether to check by itself once a day; Settings ›
+  General has the switch and a Check for Updates button.
+- Every update is signed, and FileFlow refuses one whose signature does not match the key built
+  into it, or that was signed by someone else. A check sends nothing about this Mac.
+- Versions are published at github.com/lgiucleab/FileFlow-Releases.
+
+### Note
+
+- 1.0.0 cannot update itself: install 1.0.1 from its disk image once, and later versions arrive
+  by themselves.
+
+]]></description>
+            <enclosure url="https://github.com/lgiucleab/FileFlow-Releases/releases/download/v1.0.1/FileFlow-1.0.1.dmg" length="16988889" type="application/octet-stream" sparkle:edSignature="5WFAdK7T287N1KTXAdqw9eMS6SrykNvvm/T7Xn8HayuaapPOnij37IHVHDX8Xh04fPas0qY6KVbnwoivs/+EDQ=="/>
+        </item>
     </channel>
 </rss>
